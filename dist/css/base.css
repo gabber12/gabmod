@@ -47,7 +47,8 @@
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%); }
+  transform: translateX(-50%) translateY(-50%);
+  overflow-y: auto; }
 
 .md-effect-1 .md-content {
   -webkit-transform: scale(0.7);

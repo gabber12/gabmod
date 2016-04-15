@@ -56,8 +56,8 @@ var Modal = function () {
             console.log(this.visible);
             if (!this.visible) return;
             this.visible = false;
-            this.root.style.visibility = 'hidden';
             Utils.removeClass(this.root, 'md-show');
+            this.root.setAttribute('style', 'display:none ! important; visibility:hidden');
             this.addBodyShadow();
         }
     }, {
@@ -65,8 +65,8 @@ var Modal = function () {
         value: function show() {
             if (this.visible) return;
             this.visible = true;
-            this.root.style.visibility = 'visible';
             Utils.addClass(this.root, 'md-show');
+            this.root.setAttribute('style', 'display:block ! important; visibility:visible');
             this.removeBodyShadow();
         }
     }]);

@@ -7,11 +7,15 @@ Theming can either be done by changing css or changing variables in scss(preferr
 
 Usage
 -----
+   
+    <div id="myModal" class="modal md-modal md-effect-1">
+        ...
+    </div>
 
     <script>
-            var modal = new Modal({
-                id:"myModal"
-            });
+        var modal = new Modal({
+            id:"myModal"
+        });
     </script>
 
 
