@@ -8,11 +8,11 @@ Theming can either be done by changing css or changing variables in scss(preferr
 Usage
 -----
 
-> <script>
->         var modal = new Modal({
->             id:"myModal"
->         });
-> </script>
+    <script>
+            var modal = new Modal({
+                id:"myModal"
+            });
+    </script>
 
 
 Feel free to contribute by opening a pull request.
